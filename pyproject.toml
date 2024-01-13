@@ -2,13 +2,14 @@
 name = "rag"
 version = "0.1.0"
 description = ""
-authors = ["Tim Pap (@blackpr)"]
+authors = ["Tim Pap <@blackpr>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 llama-index = "^0.9.30"
 python-dotenv = "^1.0.0"
+black = "^23.12.1"
 
 
 [build-system]
